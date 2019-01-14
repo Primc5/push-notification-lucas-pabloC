@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "926579296722",
+    "firebase_url": "https://tarealucifer.firebaseio.com",
+    "project_id": "tarealucifer",
+    "storage_bucket": "tarealucifer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926579296722:android:d6e03507b0c9561c",
+        "android_client_info": {
+          "package_name": "com.u_tad.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926579296722-mk3oqok2uaifo142cfcmmjf9d5rqmlbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.u_tad.firebase",
+            "certificate_hash": "7bc8c9eb8c84048e8e6efc8dcfd6d2cc70a1a222"
+          }
+        },
+        {
+          "client_id": "926579296722-6crbh4821q7uuua4vqn46mblr7b21269.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo89XN4P1tH9DsiaUd_NiW5r3K5eDjHnU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926579296722-6crbh4821q7uuua4vqn46mblr7b21269.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
