@@ -15,7 +15,7 @@ import android.view.View
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
-
+//creamos una clase que extiende de FirebaseMessagingService que nos permite acceder al servicio de mensajeria de firebase
 
 class MyFirebaseMessagingService : FirebaseMessagingService() {
     var CHANNEL_ID: String = "channel id"
@@ -56,6 +56,7 @@ class MyFirebaseMessagingService : FirebaseMessagingService() {
 
         mBuilder = NotificationCompat.Builder(this, CHANNEL_ID)
                 .setSmallIcon(R.drawable.notification_template_icon_bg)
+                //Creamos el contenido de la notificacion cogiendo el title y el body del remoteMessage que llega por parametro desde el servicio
                 .setContentTitle(remoteMessage.notification!!.title!!)
                 .setContentText(remoteMessage.notification!!.body!!)
                 .setStyle(
